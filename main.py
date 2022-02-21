@@ -20,3 +20,9 @@ total = 0
 for number in range(1,101):
     total += number
 print(total)
+
+#Finding the Sum of Even Numbers 1 - 100
+total = 0
+for number in range(0,101, 2):
+    total += number
+print(total)
